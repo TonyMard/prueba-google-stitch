@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"inverse-on-surface":"#2c303b","inverse-surface":"#dfe2f1","secondary":"#47ddbb","on-error-container":"#ffdad6","primary":"#ffe0a4","secondary-fixed":"#6afad7","inverse-primary":"#795900","tertiary":"#f1dcff","on-surface-variant":"#d2c5ae","error":"#ffb4ab","on-tertiary":"#490080","background":"#0f131d","surface-container":"#1c1f2a","tertiary-fixed":"#f0dbff","on-secondary-fixed":"#002019","on-tertiary-fixed":"#2c0051","on-secondary-fixed-variant":"#005142","secondary-container":"#00bb9b","secondary-fixed-dim":"#47ddbb","outline":"#9b8f7b","surface-tint":"#f4bf41","on-primary-fixed":"#261a00","on-error":"#690005","error-container":"#93000a","on-surface":"#dfe2f1","on-primary-fixed-variant":"#5b4300","on-primary":"#402d00","surface-container-highest":"#313540","tertiary-container":"#deb9ff","on-secondary-container":"#004437","on-secondary":"#00382d","surface-dim":"#0f131d","surface-container-low":"#171b26","primary-fixed":"#ffdf9e","primary-container":"#f5c042","surface-variant":"#313540","on-tertiary-fixed-variant":"#6900b3","on-background":"#dfe2f1","surface-bright":"#353944","on-tertiary-container":"#7817c6","primary-fixed-dim":"#f4bf41","surface-container-high":"#262a35","tertiary-fixed-dim":"#ddb7ff","outline-variant":"#4f4635","on-primary-container":"#6b4f00","surface-container-lowest":"#0a0e18","surface":"#0f131d"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"1.25rem","gutter":"1.5rem","margin":"3rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-lg":"1.5rem","space-sm":"0.5rem","space-md":"1rem","space-xl":"2.5rem"},"fontFamily":{"headline-sm":["EB Garamond"],"display-hero-mobile":["EB Garamond"],"label-sm":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"headline-lg-mobile":["EB Garamond"],"title-lg":["Plus Jakarta Sans"],"headline-md":["EB Garamond"],"body-lg":["Plus Jakarta Sans"],"display-hero":["EB Garamond"],"headline-lg":["EB Garamond"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},"fontSize":{"headline-sm":["24px",{"lineHeight":"32px","fontWeight":"500"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"0em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"700"}],"title-md":["18px",{"lineHeight":"26px","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"600"}],"title-lg":["20px",{"lineHeight":"28px","fontWeight":"700"}],"headline-md":["30px",{"lineHeight":"38px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen selection:bg-primary selection:text-on-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin-mobile md:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md flex-shrink-0"><img alt="Teyvat Lore Crest" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U_HFOycPeYXO3_1N1bLYEBqkKQMUKdYGsa-mWa5fF8ed4FLyHdCubJ-oos9iAgbZQBPbTxYRQWcqIH6DuQevcqAkCKiIewxhgoyZgK0hSB-wd9K4aoM85fOrZROJutOu3oYBlQtQm23wlTDT9tpWfAgF1DV1Auw3ThbTvv4O3Xv-sgVu7wpvEzqUb-NVsWloYwNRbovhyIKkxuvf1-_ETj_QNAvjALfRVwz1UYiWm_YpljW3l9FKnQIQ"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-wide leading-none">TEYVAT ARCHIVES</span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase opacity-90">Crónicas Celestes</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-label-lg text-label-lg rounded-lg shadow-[0_0_12px_rgba(245,192,66,0.3)]"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-xs rounded-lg transition-all duration-200" data-path="inicio-el-genesis" href="#">Inicio / El Génesis</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-xs rounded-lg transition-all duration-200" data-path="las-7-naciones" href="#">Las 7 Naciones</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-xs rounded-lg transition-all duration-200" data-path="arcontes-deidades" href="#">Arcontes &amp; Deidades</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-xs rounded-lg transition-all duration-200" data-path="khaenriah-cataclismo" href="#">Khaenri'ah &amp; Cataclismo</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-xs rounded-lg transition-all duration-200" data-path="linea-temporal" href="#">Línea Temporal</a></nav><div class="flex items-center gap-space-sm flex-shrink-0"><button class="hidden md:flex items-center gap-space-xs bg-surface-container-high hover:bg-surface-container-highest text-on-surface-variant hover:text-on-surface px-space-md py-space-xs rounded-lg transition-all duration-200 shadow-[0_1px_8px_rgba(0,0,0,0.04)]" type="button"><span class="material-symbols-outlined text-[18px] text-secondary">search</span><span class="font-body-sm text-body-sm">Buscar misterios...</span><kbd class="font-label-sm text-label-sm bg-surface-container px-space-xs rounded text-outline">⌘K</kbd></button><a class="flex items-center gap-space-xs bg-primary-container hover:bg-primary-fixed-dim text-on-primary-container font-label-lg text-label-lg px-space-md py-space-xs rounded-lg shadow-[0_0_16px_rgba(245,192,66,0.35)] hover:shadow-[0_0_24px_rgba(245,192,66,0.5)] transition-all duration-300 transform hover:-translate-y-0.5" data-path="explorador-de-archivos" href="#"><span class="material-symbols-outlined text-[18px]">auto_stories</span><span>Explorar Archivos</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- HERO SECTION CINEMÁTICO -->
+<section class="relative w-full overflow-hidden px-margin-mobile md:px-margin pt-12 pb-20 lg:pt-16 lg:pb-28">
+<!-- Atmospheric Ambient Glows -->
+<div class="absolute -top-32 left-1/4 w-96 h-96 bg-primary-container/15 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="absolute top-20 right-10 w-[450px] h-[450px] bg-secondary/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute bottom-0 left-10 w-80 h-80 bg-tertiary-container/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="relative max-w-7xl mx-auto flex flex-col items-center text-center">
+<!-- Badges Superiores -->
+<div class="flex flex-wrap items-center justify-center gap-space-sm mb-6">
+<div class="flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md shadow-md">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Lore Nivel Irminsul // Verificado por la Academia</span>
+</div>
+<div class="flex items-center gap-space-xs px-space-md py-1 rounded-full bg-primary-container/20 backdrop-blur-md shadow-md">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Cronología Actualizada 5.X Natlan</span>
+</div>
+</div>
+<!-- Titular Épico Principal -->
+<h1 class="font-display-hero text-display-hero text-on-surface max-w-5xl tracking-tight leading-none mb-6">
+        Descifra los Secretos del <span class="text-primary italic font-serif">Firmamento Falso</span>
+</h1>
+<!-- Subtítulo Envolvente -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mb-10 leading-relaxed">
+        Antes de los Siete Tronos, antes de que el Primordial tallara las leyes sagradas, el mundo perteneció a los Soberanos Dragón. Sumérgete en el génesis prohibido de Teyvat, la llegada de los Forasteros Celestiales y la devastación que aún resuena en las raíces del árbol plateado.
+      </p>
+<!-- Botones CTA Principales -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md w-full max-w-md mb-16">
+<a class="w-full sm:w-auto flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-primary-container text-on-primary-container font-label-lg text-label-lg shadow-[0_0_24px_rgba(245,192,66,0.4)] hover:shadow-[0_0_36px_rgba(245,192,66,0.6)] transform hover:-translate-y-0.5 transition-all duration-300" href="#cronologia">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+<span>Iniciar Viaje Cronológico</span>
+</a>
+<a class="w-full sm:w-auto flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-surface-container-high/70 hover:bg-surface-container-highest text-secondary font-label-lg text-label-lg shadow-lg hover:shadow-[0_0_20px_rgba(71,221,187,0.3)] transform hover:-translate-y-0.5 transition-all duration-300" href="#expedientes">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+<span>Teorías de Khaenri'ah</span>
+</a>
+</div>
+<!-- Barra de Estadísticas Cósmicas -->
+<div class="w-full grid grid-cols-2 md:grid-cols-4 gap-space-md p-space-md md:p-space-lg rounded-2xl bg-surface-container-low/70 backdrop-blur-xl shadow-xl">
+<div class="flex flex-col items-center text-center p-space-sm">
+<div class="flex items-center gap-1 text-primary mb-1">
+<span class="font-headline-md text-headline-md leading-none">500+</span>
+<span class="text-xs">AÑOS</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Años de Silencio &amp; Pecado</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-sm">
+<div class="flex items-center gap-1 text-secondary mb-1">
+<span class="font-headline-md text-headline-md leading-none">7</span>
+<span class="text-xs">TRONOS</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Autoridades Primordiales</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-sm">
+<div class="flex items-center gap-1 text-tertiary mb-1">
+<span class="font-headline-md text-headline-md leading-none">1</span>
+<span class="text-xs">NACIÓN</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Khaenri'ah sin Dioses</span>
+</div>
+<div class="flex flex-col items-center text-center p-space-sm">
+<div class="flex items-center gap-1 text-primary mb-1">
+<span class="font-headline-md text-headline-md leading-none">2.4M</span>
+<span class="text-xs">VIAJEROS</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Leyendo el Irminsul</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SELECTOR / TABS INTERACTIVO DE ERAS HISTÓRICAS -->
+<section class="w-full px-margin-mobile md:px-margin py-16 bg-surface-container-lowest/50 relative" id="cronologia">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">history_edu</span>
+            Eje Temporal Universal
+          </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Las Grandes Eras de Teyvat</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Cronología no lineal conservada por escribas clandestinos antes de las reescrituras de la memoria cósmica.
+        </p>
+</div>
+<!-- Tab Buttons -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-space-xs p-1.5 rounded-xl bg-surface-container-high/60 backdrop-blur-md">
+<button class="era-tab px-space-md py-3 rounded-lg text-left transition-all duration-200 bg-primary-container text-on-primary-container shadow-md" id="tab-soberanos" onclick="switchEra('soberanos')" type="button">
+<span class="font-label-sm text-label-sm block opacity-80 uppercase tracking-widest">Era I</span>
+<span class="font-title-md text-title-md block truncate">Primeros Soberanos</span>
+</button>
+<button class="era-tab px-space-md py-3 rounded-lg text-left transition-all duration-200 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest" id="tab-arcontes" onclick="switchEra('arcontes')" type="button">
+<span class="font-label-sm text-label-sm block opacity-80 uppercase tracking-widest">Era II</span>
+<span class="font-title-md text-title-md block truncate">Guerra de Arcontes</span>
+</button>
+<button class="era-tab px-space-md py-3 rounded-lg text-left transition-all duration-200 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest" id="tab-cataclismo" onclick="switchEra('cataclismo')" type="button">
+<span class="font-label-sm text-label-sm block opacity-80 uppercase tracking-widest">Era III</span>
+<span class="font-title-md text-title-md block truncate">El Cataclismo</span>
+</button>
+<button class="era-tab px-space-md py-3 rounded-lg text-left transition-all duration-200 text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest" id="tab-rebelion" onclick="switchEra('rebelion')" type="button">
+<span class="font-label-sm text-label-sm block opacity-80 uppercase tracking-widest">Era IV</span>
+<span class="font-title-md text-title-md block truncate">La Rebelión Celestial</span>
+</button>
+</div>
+<!-- Era Content Panels -->
+<div class="relative min-h-[380px] rounded-2xl bg-surface-container-low p-space-lg md:p-space-xl overflow-hidden shadow-2xl">
+<!-- Panel 1: Primeros Soberanos -->
+<div class="era-panel flex flex-col lg:flex-row items-center gap-space-xl transition-opacity duration-300" id="panel-soberanos">
+<div class="flex-1 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="px-space-sm py-0.5 rounded bg-secondary/15 text-secondary font-label-sm text-label-sm uppercase tracking-wider">Antigüedad Primigenia</span>
+<span class="text-outline font-label-sm text-label-sm">✦ ~4000+ Años AP</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">El Reino de los Siete Soberanos Dragón</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              Mucho antes de Celestia, el mundo era un mar furioso de energía elemental pura dominado por los Soberanos Dragón. La llegada de Phanes, el Primordial, fracturó este ecosistema para instaurar el reino humano y aislar el firmamento tras una barrera ilusoria.
+            </p>
+<div class="p-space-md rounded-xl bg-surface-container-high/50 italic text-on-surface font-headline-sm text-headline-sm">
+              “En aquel entonces, la tierra y el cielo no conocían divisiones impuestas. Los tronos celestes aún no habían caído sobre las cabezas de las bestias sagradas.”
+              <span class="block text-right font-label-sm text-label-sm text-secondary not-italic mt-2">— Antes del Sol y la Luna (Vol. I)</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[16px]">shield</span> Amenaza Irminsul: Grado Crítico</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">menu_book</span> Tomo Prohibido: Spantamad</span>
+</div>
+</div>
+<div class="w-full lg:w-96 h-72 rounded-xl overflow-hidden relative shadow-lg flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Epic fantasy artwork of seven colossal elemental dragons coiled beneath an ancient cosmic night sky with shimmering constellation runes, anime digital painting style, dark cyan and glowing gold lighting, highly detailed mythical atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCpCHfPYXBB0ffHwVkYCqqxW33v6EKkWGCfVw2R3LP3kdYAdiV6gyeCfzDut4vQ3FvaFPJhZu5xWdfDn98SFKmp1OAz_pxmKK4zwWEnrQd4WIUpDv4qt9iINrtyv_yrcdEsspWFDgwJ71II_kVE-uLcpjVMFzMJNTQLt83o29xrygT78UWtrNv0apA0N5_pv1l82M62WNQtAm68qQKmaqupDWQ_rRUC7PtYPOA_8MYi51tSzWhxMOx"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-4">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">Phanes y la Creación de las Cuatro Sombras</span>
+</div>
+</div>
+</div>
+<!-- Panel 2: Guerra de Arcontes -->
+<div class="era-panel hidden flex-col lg:flex-row items-center gap-space-xl transition-opacity duration-300" id="panel-arcontes">
+<div class="flex-1 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="px-space-sm py-0.5 rounded bg-primary-container/20 text-primary font-label-sm text-label-sm uppercase tracking-wider">Conflicto Cósmico</span>
+<span class="text-outline font-label-sm text-label-sm">✦ ~2000 Años AP</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">La Batalla por los Siete Tronos Divinos</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              Los dioses menores lucharon con ferocidad sin precedentes cuando Celestia ofreció los siete asientos supremos junto a las Gnoses. Valles enteros fueron cortados, mares hervidos y deidades benévolas perecieron ante la implacable selección celestial.
+            </p>
+<div class="p-space-md rounded-xl bg-surface-container-high/50 italic text-on-surface font-headline-sm text-headline-sm">
+              “Solo aquellos que contemplaron la muerte de incontables hermanos pudieron reclamar la corona de marfil y someter a su pueblo al nuevo pacto.”
+              <span class="block text-right font-label-sm text-label-sm text-secondary not-italic mt-2">— Crónicas de la Roca y el Viento</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[16px]">shield</span> Amenaza Irminsul: Grado Elevado</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">landscape</span> Epicentro: Valle de Guili</span>
+</div>
+</div>
+<div class="w-full lg:w-96 h-72 rounded-xl overflow-hidden relative shadow-lg flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Majestic and sorrowful battlefield of mythical gods, glowing elemental spears piercing the earth, shattered stone pillars and an ancient golden aura, cinematic fantasy style, deep obsidian and royal gold tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvVpL3MaZ0G1i4_vcmSYPn03GYFemTYXXyu1fN_RvOeryfs1z4excyVyyLzXDDU4fhiiKChNzdQ0lM4NZaFJSWUuKlcAJavkiRSUxiRkRhhztBBWueYhAvXDm2qOmpq9C3NgpqWeu2Ui4oTpdWwyEuU5zEdX8eYF7iEJi8p7F3yhdeuu3eeNmBNXzJyfLOoyz7Z1vf--RGL0tvm9THN-6CVBahV_Enm5KnHz-y5tie-RCg-GVQS4N-"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-4">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">El Nacimiento de los Siete Originales</span>
+</div>
+</div>
+</div>
+<!-- Panel 3: El Cataclismo -->
+<div class="era-panel hidden flex-col lg:flex-row items-center gap-space-xl transition-opacity duration-300" id="panel-cataclismo">
+<div class="flex-1 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="px-space-sm py-0.5 rounded bg-error-container/40 text-error font-label-sm text-label-sm uppercase tracking-wider">Gran Corrupción</span>
+<span class="text-outline font-label-sm text-label-sm">✦ Hace 500 Años</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">La Caída de Khaenri'ah y la Peste del Abismo</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              El orgullo humano desafió a los cielos con la alquimia prohibida (Khemia). El Abismo desgarró el velo de la realidad, bestias de sombra invadieron las siete naciones y Celestia respondió con el castigo divino: la maldición de la inmortalidad monstruosa.
+            </p>
+<div class="p-space-md rounded-xl bg-surface-container-high/50 italic text-on-surface font-headline-sm text-headline-sm">
+              “Las bestias de Rhinedottir marcharon sin alma. La luz del sol negro cayó para siempre sobre el palacio subterráneo.”
+              <span class="block text-right font-label-sm text-label-sm text-secondary not-italic mt-2">— Manuscritos del Halcón Oscuro</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-error"><span class="material-symbols-outlined text-[16px]">crisis_alert</span> Amenaza Irminsul: Corrupción Activa</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">visibility_off</span> Registro: Clasificado Nivel Omega</span>
+</div>
+</div>
+<div class="w-full lg:w-96 h-72 rounded-xl overflow-hidden relative shadow-lg flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Underground ruined gothic empire engulfed in abyssal dark purple flames and celestial golden pillars falling from a fractured sky, cinematic anime dark fantasy, eerie shadows and crimson glowing eyes." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKocl5mxyRDoNhC2wwxQv-swWUDELZKI57mZSGYZoDBoRvIIgK9UPCOAjbSGY5mSxbgggeKE2sJ1hlcWWTvbC94BdvCK1NHIPn8ZUu_FODE2pK6Mu67Q3d-ho5fSG-fnnaKpv6znbxWvRsMTAm0M26SxdOf8mT0VpyDsoJuo02NHCXPhcikYZR5W2IYDvfGCIDgg4C6LxA9mc8swtBH5wfNTRhTEC-UFNcA98efm7yKxY30wrVKi-D"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-4">
+<span class="font-label-sm text-label-sm text-error tracking-widest uppercase">El Juicio de los Clavos Celestiales</span>
+</div>
+</div>
+</div>
+<!-- Panel 4: Rebelión Celestial -->
+<div class="era-panel hidden flex-col lg:flex-row items-center gap-space-xl transition-opacity duration-300" id="panel-rebelion">
+<div class="flex-1 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="px-space-sm py-0.5 rounded bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm uppercase tracking-wider">Presente &amp; Destino</span>
+<span class="text-outline font-label-sm text-label-sm">✦ Era Actual</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">La Quiebra de las Gnoses y el Despertar del Viajero</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              La Zarina reúne las siete autoridades divinas para incinerar el viejo orden. Neuvillette recupera la autoridad original de Hydro en Fontaine, mientras los gemelos forasteros caminan senderos opuestos hacia la cumbre de Celestia.
+            </p>
+<div class="p-space-md rounded-xl bg-surface-container-high/50 italic text-on-surface font-headline-sm text-headline-sm">
+              “Cuando todos los hilos del destino converjan en la ciudad de hielo, los dioses conocerán el peso de la ceniza humana.”
+              <span class="block text-right font-label-sm text-label-sm text-secondary not-italic mt-2">— Diario del Heraldo Pierro</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1 text-secondary"><span class="material-symbols-outlined text-[16px]">bolt</span> Estado: Convergencia Inminente</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">share</span> Destino: Snezhnaya / Kaenri'ah</span>
+</div>
+</div>
+<div class="w-full lg:w-96 h-72 rounded-xl overflow-hidden relative shadow-lg flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="A floating island of Celestia casting immense golden beams down upon frozen spires and an icy crystalline palace, anime fantasy art style, icy blue, lavender and starlight golden aesthetics." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-RVRJZlDhQpGAjSgPi38tH9yBE6GgWcMoWJGPoYET_ZuRFqiKLPzWc-IivOPMmeTXaldzXYPM_M4SFwHt9zXCPEIoo-lN0EKp0zLbVmb9eqDTLB93JPlFA9ZQDIERsHIdTUHwngdjaY_sE9KK73JFGUOTqOtUBJH3PbkZtP53QD791a-UTPKdNniHS9ki_WT5lnfgH5CLyiU9djsqSLzcbl52uxsROoCLBY2COkZmC3KU15H_bjqJ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-4">
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">El Gran Jaque a Celestia</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CARRUSEL VISUAL DE LAS 7 NACIONES Y SUS SECRETOS -->
+<section class="w-full px-margin-mobile md:px-margin py-20 relative overflow-hidden">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">public</span>
+            Atlas Prohibido de Teyvat
+          </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Las Siete Naciones &amp; Sus Enigmas</h2>
+</div>
+<!-- Carrusel Navigation Buttons -->
+<div class="flex items-center gap-space-sm">
+<button aria-label="Anterior nación" class="w-10 h-10 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-primary flex items-center justify-center transition-transform active:scale-95 shadow-md" onclick="scrollNationCarousel(-1)" type="button">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+</button>
+<button aria-label="Siguiente nación" class="w-10 h-10 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-primary flex items-center justify-center transition-transform active:scale-95 shadow-md" onclick="scrollNationCarousel(1)" type="button">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Carousel Scroll Container -->
+<div class="flex gap-space-lg overflow-x-auto scrollbar-none scroll-smooth pb-6 pt-2" id="nations-carousel">
+<!-- Nation 1: Mondstadt -->
+<div class="min-w-[320px] sm:min-w-[360px] md:min-w-[380px] rounded-2xl bg-surface-container-low overflow-hidden flex flex-col shadow-xl hover:shadow-[0_0_24px_rgba(71,221,187,0.25)] transition-all duration-300 transform hover:-translate-y-1">
+<div class="h-48 w-full relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Panoramic landscape of Mondstadt with massive stone windmills towering green hills, majestic dandelion seeds floating in azure breeze, vibrant anime fantasy setting, serene twilight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjbqniWBDpXYB0mbZhwYrtkWLiuhC0jGF2JOjv6PLIKNMly49yPsccRoyW3027soirSKk3HiXiL2t8kUEgj30aieRFO958_mjq9zb9kHRyNvLzx4ecZoS85VIFh7dPDZ6C4cndQFy456cAJh6j61MwoAOdBmyA28lIYY7uO3IAodnQuTVz_Td9JNje6KWmaF2B9-luHbXpj6-FL46iww3kq_qsA_NI_SIss6OV9kgEhjAvBsGInyeC"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center gap-1 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">air</span> Anemo
+            </div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">
+              ★ 5 Estrellas
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Mondstadt</h3>
+<p class="font-body-sm text-body-sm text-secondary font-medium mb-2">Tierra de la Libertad y el Dios Ausente</p>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+                Bajo la brisa alegre yace el culto extinto al Dios del Tiempo (Istaroth). ¿Por qué Barbatos finge dormir mientras la Puerta de Celestia se yergue silenciosa sobre sus colinas?
+              </p>
+</div>
+<div class="pt-space-sm border-t-0 bg-surface-container-high/40 p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-primary uppercase block mb-1">Secreto Clave:</span>
+<p class="font-body-sm text-body-sm text-on-surface">El Templo Perdido del Tiempo y las Mil Rutas de los Vientos.</p>
+</div>
+</div>
+</div>
+<!-- Nation 2: Liyue -->
+<div class="min-w-[320px] sm:min-w-[360px] md:min-w-[380px] rounded-2xl bg-surface-container-low overflow-hidden flex flex-col shadow-xl hover:shadow-[0_0_24px_rgba(245,192,66,0.25)] transition-all duration-300 transform hover:-translate-y-1">
+<div class="h-48 w-full relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Liyue harbor illuminated by hundreds of floating golden sky lanterns at dusk, towering jagged stone karst mountains in the background, warm amber and gold anime illustration." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz8uh62JRlYgVYDm_Y52BtUZjNO7cpdQSwXwewunhhvxIu4lvzSOQEdPKnjShu_fH01k7PimUeNn39Rr6-96RShHQnUupPovyAbAvZUwRPb8DR10o-8foztbpmghjzbEGJgq7DzXrAvfjk2IS79tjsYkTDfFN4AGGRBQ6yy8Y7Zoynaw3EGejNBLFKlGU1k2MB9LsEGrgzGTaJHeTBRQq0MInkXYgTglB2oqnBnB_zNZUtEtIRs6J9"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center gap-1 text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">landscape</span> Geo
+            </div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">
+              ★ 5 Estrellas
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Liyue</h3>
+<p class="font-body-sm text-body-sm text-primary font-medium mb-2">El Contrato de la Roca y la Erosión</p>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+                Morax gobernó durante milenios antes de firmar "el contrato para poner fin a todos los contratos". ¿Qué verdad cósmica oculta la Sima sobre el Clavo Celestial caído?
+              </p>
+</div>
+<div class="pt-space-sm bg-surface-container-high/40 p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-primary uppercase block mb-1">Secreto Clave:</span>
+<p class="font-body-sm text-body-sm text-on-surface">El Clavo Lumínico de La Sima y la entidad de cristal negro.</p>
+</div>
+</div>
+</div>
+<!-- Nation 3: Inazuma -->
+<div class="min-w-[320px] sm:min-w-[360px] md:min-w-[380px] rounded-2xl bg-surface-container-low overflow-hidden flex flex-col shadow-xl hover:shadow-[0_0_24px_rgba(222,185,255,0.25)] transition-all duration-300 transform hover:-translate-y-1">
+<div class="h-48 w-full relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Grand Narukami Shrine atop a steep purple mountain, glowing electric cherry blossom tree beneath a stormy violet sky crackling with thunderbolts, rich mystical fantasy art." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1KC_IG2GLNp043K5nda9rLRayMlSPSQCow2w7hmzz0PJaGvyyyqa0dJ7vzT-3rIyxuPooyFgeHprE8SdGwRPIknOkKDoXkVJbsZF93839DK18kqXBXwAc0cKxU4g3jg_5BkX2Uh28RlWZt1IRywNYRESjUOfblqfqEscN8oZxty9nv0xnIwxemOdBndblk2oCDua3GazvC1Ww_l0KFMMTleiqvHymNDdYyKch5TssdPWpXXt8v5Am"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center gap-1 text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">bolt</span> Electro
+            </div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">
+              ★ 5 Estrellas
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Inazuma</h3>
+<p class="font-body-sm text-body-sm text-tertiary font-medium mb-2">La Eternidad Rota y la Sombra de Makoto</p>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+                El Sagrado Cerezo que siempre existió en la memoria de los hombres fue plantado en el futuro a través de la paradoja temporal de la Shogun Makoto en el Cataclismo.
+              </p>
+</div>
+<div class="pt-space-sm bg-surface-container-high/40 p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-primary uppercase block mb-1">Secreto Clave:</span>
+<p class="font-body-sm text-body-sm text-on-surface">La semilla de la Sakura plantada en el plano de la Eutimia.</p>
+</div>
+</div>
+</div>
+<!-- Nation 4: Sumeru -->
+<div class="min-w-[320px] sm:min-w-[360px] md:min-w-[380px] rounded-2xl bg-surface-container-low overflow-hidden flex flex-col shadow-xl hover:shadow-[0_0_24px_rgba(71,221,187,0.25)] transition-all duration-300 transform hover:-translate-y-1">
+<div class="h-48 w-full relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Immense mystical tree city of Sumeru surrounded by bioluminescent rainforest foliage and golden desert pyramids on the distant horizon, luminous green spores floating in air, anime fantasy style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBI7bBZnnkv_x0iPltoJ6hhQVHZfUXLHH1ESXD5bLz-DE4GCTcUJUGS50HbwzvQD6827wKqGLHgxbEgMwmURYKnZfiib7QCoSfm5xQMuG0d5jJaIVeNTQZVc2hfU4J-YtVPmekxqUqAhmDN14_ttOJQIoq2yNUp6LAZHprq_GlsBC6zzAmoGbzbw4OhGVEBIemIZ9cvxZGLCEsCDMBZaLQDaUfr7vlec6sYJqRQK4nr2CJSzFFZ09lH"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center gap-1 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">spa</span> Dendro
+            </div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">
+              ★ 5 Estrellas
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Sumeru</h3>
+<p class="font-body-sm text-body-sm text-secondary font-medium mb-2">La Memoria Borrada y el Árbol Irminsul</p>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+                La Gran Señora Rukkhadevata sacrificó su existencia total para erradicar el Conocimiento Prohibido, reescribiendo la historia entera de Teyvat sin dejar rastro de su nombre.
+              </p>
+</div>
+<div class="pt-space-sm bg-surface-container-high/40 p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-primary uppercase block mb-1">Secreto Clave:</span>
+<p class="font-body-sm text-body-sm text-on-surface">El Conocimiento Prohibido traído por el Rey Deshret.</p>
+</div>
+</div>
+</div>
+<!-- Nation 5: Fontaine -->
+<div class="min-w-[320px] sm:min-w-[360px] md:min-w-[380px] rounded-2xl bg-surface-container-low overflow-hidden flex flex-col shadow-xl hover:shadow-[0_0_24px_rgba(106,250,215,0.25)] transition-all duration-300 transform hover:-translate-y-1">
+<div class="h-48 w-full relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Grand neo-baroque water metropolis with elevated aqueducts, waterfalls, brass gear architecture and crystalline cyan lakes, breathtaking anime scenery, bright daylight and sparkling mist." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE0Nvc1ZxQu8_UEPzSEzqVOd632S0ncKPgzKNzL8e4rbBD-tGSTslYk3yCxWmmuDAHDCmy5bnrJVZdhGMFsiJPNmFxPk7-kol95muuZYuUScYtFqHM0xa3B6V44e2IFasbPIQe_RbYePlyqWitjhy93VeStwiH3LKXm4A_HnW4NktVLR1FBiK9SpceyIyroRLJjlwjQNdOYIugpwrIhjpUoFR_MmAQb6omLRr-AFvQY5tVb4PVv-hm"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center gap-1 text-secondary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">water_drop</span> Hydro
+            </div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">
+              ★ 5 Estrellas
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Fontaine</h3>
+<p class="font-body-sm text-body-sm text-secondary-fixed font-medium mb-2">El Juicio y la Destrucción del Trono Divino</p>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+                Focalors orquestó una farsa de 500 años para ejecutarse a sí misma mediante la Oratrice, devolviendo el poder primordial del Dragón Hydro y engañando a Celestia.
+              </p>
+</div>
+<div class="pt-space-sm bg-surface-container-high/40 p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-primary uppercase block mb-1">Secreto Clave:</span>
+<p class="font-body-sm text-body-sm text-on-surface">El Mar Primordial y el pecado del origen de los oceanoides.</p>
+</div>
+</div>
+</div>
+<!-- Nation 6: Natlan -->
+<div class="min-w-[320px] sm:min-w-[360px] md:min-w-[380px] rounded-2xl bg-surface-container-low overflow-hidden flex flex-col shadow-xl hover:shadow-[0_0_24px_rgba(245,192,66,0.25)] transition-all duration-300 transform hover:-translate-y-1">
+<div class="h-48 w-full relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Vibrant geothermal canyons and volcanic plateaus with graffiti-like ancient tribal dragon glyphs glowing in neon orange and magma yellow, cinematic anime fantasy landscape." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpeRCuyUWklOzcd20GhNM2hSDhSwIkeXOHeZIY8CoA1S6BYYfUri_MPxIE11kFY4zqO1586r4REd4JtzPOZa_yty4nydmd7vY-iAbnj5ctIuzbpCiEMndxumhPI8MAiIuooXVZRuKV6bOjUIJd8sfkss-P7BBX_uDTiXOrkWqE7EIRVwn7m6sZT_g7J-WnjgsLoirzosgQK3WcbMDfmPdQkzoBfJ2Cihf5pp2DGDDbMVqOG4ui5eri"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center gap-1 text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> Pyro
+            </div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">
+              ★ 5 Estrellas
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Natlan</h3>
+<p class="font-body-sm text-body-sm text-primary font-medium mb-2">El Reino de la Guerra y el Retorno Nocturno</p>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+                En la tierra donde los humanos y saurios combaten al Abismo perpetuo, la muerte no es definitiva. Los nombres antiguos reencarnan el alma de los campeones legendarios.
+              </p>
+</div>
+<div class="pt-space-sm bg-surface-container-high/40 p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-primary uppercase block mb-1">Secreto Clave:</span>
+<p class="font-body-sm text-body-sm text-on-surface">El Reino de la Noche y la trama de Mavuika y Capitano.</p>
+</div>
+</div>
+</div>
+<!-- Nation 7: Snezhnaya -->
+<div class="min-w-[320px] sm:min-w-[360px] md:min-w-[380px] rounded-2xl bg-surface-container-low overflow-hidden flex flex-col shadow-xl hover:shadow-[0_0_24px_rgba(223,226,241,0.25)] transition-all duration-300 transform hover:-translate-y-1">
+<div class="h-48 w-full relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Colossal brutalist ice fortress and palatial industrial towers amidst a fierce snowstorm, aurora borealis reflecting on crystalline frost, mysterious anime dark fantasy visual." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBe5X0XxmvFB775_5jA19qwGnGqtzjnPa2fUFmmAA1yGPecE9lb2vS7pVvbiZBo4kwYeHP3mRvHDVnG7UjjOXyXdQeF_S-HHeRO4D3k06NPktrK27M8NvfWp7zI9NzFmiHmycZDKk4R21pLA6epHpXCIACGi2eqHMZPKSj7eV5dmwj_ivb-PlnPk3X6M5yL7vluoIRn9uUIzLgz4q_P_30rfARBY3EAKN2MSdZYp9tHM0An04BsK1l"/>
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center gap-1 text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">ac_unit</span> Cryo
+            </div>
+<div class="absolute top-3 right-3 px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">
+              ★ 5 Estrellas
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">Snezhnaya</h3>
+<p class="font-body-sm text-body-sm text-on-surface font-medium mb-2">Los Once Heraldos y la Última Cruzada</p>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-3">
+                La Zarina ha jurado rebelarse contra los Principios Celestiales quemando el viejo mundo. Con las Gnoses reunidas, los Fatui alistan el artefacto definitivo.
+              </p>
+</div>
+<div class="pt-space-sm bg-surface-container-high/40 p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-primary uppercase block mb-1">Secreto Clave:</span>
+<p class="font-body-sm text-body-sm text-on-surface">El Gran Jaque de los Fatui y el cuerpo del Tercer Descendido.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CONTENT BLOCKS & GRID DE MISTERIOS Y TEORÍAS POPULARES -->
+<section class="w-full px-margin-mobile md:px-margin py-20 bg-surface-container-lowest/40 relative" id="expedientes">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="w-2.5 h-2.5 rounded-full bg-error animate-ping"></span>
+<span class="font-label-sm text-label-sm text-error uppercase tracking-widest">Alerta de Seguridad Irminsul</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Expedientes Arcanos &amp; Teorías Mayores</h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm shadow-sm hover:bg-surface-container-highest" type="button">Más Populares</button>
+<button class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm" type="button">Recientes Natlan</button>
+</div>
+</div>
+<!-- Theory Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Theory 1 -->
+<div class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between gap-space-md shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-2">
+<span class="px-2 py-0.5 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-bold uppercase tracking-wider">Misterio S+</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">visibility</span> 142k
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mt-2 leading-snug">
+              ¿Es el Cielo de Teyvat un Domo Artificial u Holograma?
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Las palabras de Scaramouche en el evento 'Estrellas no Conciliadas' y los experimentos de Dottore confirman que las constelaciones son un registro ilusorio orquestado por Celestia.
+            </p>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-sm">
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-outline font-label-sm text-label-sm">Firmamento Falso</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-outline font-label-sm text-label-sm">Dottore</span>
+</div>
+<button class="w-full flex items-center justify-center gap-1 py-2 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-label-sm text-label-sm transition-colors shadow-sm" type="button">
+<span>Leer Análisis Completo</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Theory 2 -->
+<div class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between gap-space-md shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-2">
+<span class="px-2 py-0.5 rounded bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm font-bold uppercase tracking-wider">Enigma Divino</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">visibility</span> 98k
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mt-2 leading-snug">
+              El Origen de Paimon y las Tres Hermanas de la Luna
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Semejanzas con la corona del Reino de Khaenri'ah, la insignia de la Triquetra y la naturaleza de las diosas Aria, Soneto y Canon que murieron en el cataclismo celeste.
+            </p>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-sm">
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-outline font-label-sm text-label-sm">Guía Celestial</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-outline font-label-sm text-label-sm">Sombras Phanes</span>
+</div>
+<button class="w-full flex items-center justify-center gap-1 py-2 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-label-sm text-label-sm transition-colors shadow-sm" type="button">
+<span>Leer Análisis Completo</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Theory 3 -->
+<div class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between gap-space-md shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-2">
+<span class="px-2 py-0.5 rounded bg-secondary/20 text-secondary font-label-sm text-label-sm font-bold uppercase tracking-wider">Khaenri'ah</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">visibility</span> 124k
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mt-2 leading-snug">
+              El Arte de Khemia: La Creación del Dragón Durin y Albedo
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Rhinedottir (Oro) utilizó el poder primordial de la tierra negra sin bendición divina. ¿Cuál es el propósito del opus magnum y su vínculo con la tiza primordial?
+            </p>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-sm">
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-outline font-label-sm text-label-sm">Alquimia Prohibida</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-outline font-label-sm text-label-sm">Pecadores</span>
+</div>
+<button class="w-full flex items-center justify-center gap-1 py-2 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-label-sm text-label-sm transition-colors shadow-sm" type="button">
+<span>Leer Análisis Completo</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Theory 4 -->
+<div class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between gap-space-md shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-2">
+<span class="px-2 py-0.5 rounded bg-primary-container/20 text-primary font-label-sm text-label-sm font-bold uppercase tracking-wider">Canon Irminsul</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">visibility</span> 210k
+              </span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mt-2 leading-snug">
+              Los Cuatro Descendidos y el Tejedor del Destino
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              ¿Por qué el gemelo del Abismo sí está registrado en Irminsul mientras que nosotros no? La paradoja que une la caída de Khaenri'ah con el Telar del Destino de Clothar.
+            </p>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-sm">
+<div class="flex flex-wrap gap-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-outline font-label-sm text-label-sm">Forasteros</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-outline font-label-sm text-label-sm">Orden Abismo</span>
+</div>
+<button class="w-full flex items-center justify-center gap-1 py-2 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-primary font-label-sm text-label-sm transition-colors shadow-sm" type="button">
+<span>Leer Análisis Completo</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- WIDGET INTERACTIVO DE EXPLORACIÓN DE ARTEFACTOS Y ARMAS -->
+<section class="w-full px-margin-mobile md:px-margin py-20 relative">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">auto_stories</span>
+            Relicario de Sabiduría Arcaica
+          </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Fragmentos Ocultos en Armas &amp; Artefactos</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Las mayores verdades no están en discursos divinos, sino talladas en el filo de espadas quebradas y reliquias funerarias.
+        </p>
+</div>
+<!-- Reliquary Interactive Explorer Card -->
+<div class="rounded-3xl bg-surface-container p-space-lg md:p-space-xl shadow-2xl flex flex-col lg:flex-row gap-space-xl">
+<!-- Weapon/Artifact Selector List -->
+<div class="w-full lg:w-1/3 flex flex-col gap-space-xs">
+<button class="relic-item p-space-md rounded-xl text-left bg-surface-container-high text-primary shadow-md transition-all flex items-center justify-between" id="item-homa" onclick="selectLoreItem('homa')" type="button">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-error-container/20 flex items-center justify-center text-error flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">colorize</span>
+</div>
+<div>
+<p class="font-title-md text-title-md">Báculo de Homa</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Lanza Sagrada Ritual</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-primary">chevron_right</span>
+</button>
+<button class="relic-item p-space-md rounded-xl text-left text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all flex items-center justify-between" id="item-albaster" onclick="selectLoreItem('albaster')" type="button">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">swords</span>
+</div>
+<div>
+<p class="font-title-md text-title-md">Deseo Ponzoñoso</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Espada de Durin</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] opacity-40">chevron_right</span>
+</button>
+<button class="relic-item p-space-md rounded-xl text-left text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all flex items-center justify-between" id="item-sombra" onclick="selectLoreItem('sombra')" type="button">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">shield</span>
+</div>
+<div>
+<p class="font-title-md text-title-md">Copa del Cáliz Sombrío</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Set: Ritual Antiguo</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] opacity-40">chevron_right</span>
+</button>
+</div>
+<!-- Lore Reader Display Panel -->
+<div class="w-full lg:w-2/3 rounded-2xl bg-surface-container-lowest/80 p-space-lg md:p-space-xl flex flex-col justify-between gap-space-md shadow-inner">
+<div class="flex flex-col gap-space-md" id="lore-display-content">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">5★ Reliquia Exclusiva</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider" id="lore-origin">Rito de Fuego de Liyue</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Registro #HOM-842</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary" id="lore-title">El Fuego Purificador y las Mariposas del Más Allá</h3>
+<div class="relative pl-4 border-l-2 border-primary/30">
+<p class="font-headline-sm text-headline-sm italic text-on-surface leading-relaxed" id="lore-quote">
+                “Solo una llama desprovista de impurezas puede liberar a las almas atadas a la pena. Los fuegos de Homa no queman la carne, sino la memoria de la aflicción mortal.”
+              </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed" id="lore-body">
+              En las eras en que los miasmas del dios caído brotaban de la tierra arrasada, los sacerdotes del Valle de Guili danzaban con varas de madera encendida. Cuando el primer director del Salón El Wangsheng alzó el báculo, los llantos cesaron y las almas ascendieron en forma de mariposas incandescentes.
+            </p>
+</div>
+<div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm bg-surface-container-high/30 p-space-sm rounded-xl">
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified_user</span>
+<span>Canon Extraído de Textos Originales v1.3</span>
+</div>
+<a class="text-primary hover:text-primary-fixed-dim font-label-sm text-label-sm flex items-center gap-1" href="#">
+<span>Examinar 5 Piezas del Set</span>
+<span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN CTA FINAL IMPACTANTE -->
+<section class="w-full px-margin-mobile md:px-margin py-20 relative">
+<div class="max-w-7xl mx-auto rounded-3xl bg-gradient-to-br from-surface-container-high via-surface-container-low to-surface-container-lowest p-space-xl md:p-20 relative overflow-hidden shadow-2xl">
+<!-- Background Celestial Halo -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-primary-container/20 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="absolute -left-20 -top-20 w-80 h-80 bg-secondary/15 rounded-full blur-[90px] pointer-events-none"></div>
+<div class="relative max-w-3xl flex flex-col items-start gap-space-md">
+<div class="flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/20 text-primary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px]">sync_alt</span>
+          Sincronización con el Irminsul Abierta
+        </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+          ¿Tienes una Nueva Hipótesis sobre Celestia?
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Nuestra red de más de 40,000 loremasters analiza cada diálogo, artefacto y actualización. Publica tu propia investigación, debate con teóricos verificados y mantén tus alertas de spoiler sincronizadas.
+        </p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md w-full pt-space-sm">
+<a class="w-full sm:w-auto flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-primary-container text-on-primary-container font-label-lg text-label-lg shadow-[0_0_20px_rgba(245,192,66,0.4)] hover:shadow-[0_0_30px_rgba(245,192,66,0.6)] transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">forum</span>
+<span>Comunidad de Discord (Lore Masters)</span>
+</a>
+<a class="w-full sm:w-auto flex items-center justify-center gap-space-sm px-space-lg py-3 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-secondary font-label-lg text-label-lg transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">edit_note</span>
+<span>Contribuir una Investigación</span>
+</a>
+</div>
+<!-- Mini Formulario de Alertas -->
+<div class="w-full pt-space-lg mt-space-md">
+<form class="flex flex-col sm:flex-row items-center gap-space-xs max-w-lg" onsubmit="event.preventDefault(); alert('¡Registrado con éxito en el nodo de alertas de Irminsul!');">
+<input class="w-full px-space-md py-3 rounded-xl bg-surface-container-lowest/80 text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary shadow-inner" placeholder="Tu correo para avisos de nuevos capítulos..." required="" type="email"/>
+<button class="w-full sm:w-auto flex-shrink-0 px-space-lg py-3 rounded-xl bg-secondary text-on-secondary font-label-lg text-label-lg shadow-md hover:bg-secondary-fixed transition-all" type="submit">
+              Suscribirse
+            </button>
+</form>
+<span class="font-label-sm text-label-sm text-outline mt-2 block">
+            ✦ Sin spam. Solo alertas canónicas tras cada versión mayor (5.X+).
+          </span>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Era Switcher Micro-interaction
+  function switchEra(eraId) {
+    const tabs = document.querySelectorAll('.era-tab');
+    const panels = document.querySelectorAll('.era-panel');
+
+    tabs.forEach(tab => {
+      tab.classList.remove('bg-primary-container', 'text-on-primary-container', 'shadow-md');
+      tab.classList.add('text-on-surface-variant');
+    });
+
+    panels.forEach(panel => {
+      panel.classList.add('hidden');
+      panel.classList.remove('flex');
+    });
+
+    const activeTab = document.getElementById('tab-' + eraId);
+    if (activeTab) {
+      activeTab.classList.add('bg-primary-container', 'text-on-primary-container', 'shadow-md');
+      activeTab.classList.remove('text-on-surface-variant');
+    }
+
+    const activePanel = document.getElementById('panel-' + eraId);
+    if (activePanel) {
+      activePanel.classList.remove('hidden');
+      activePanel.classList.add('flex');
+    }
+  }
+
+  // Nations Carousel Scroll
+  function scrollNationCarousel(direction) {
+    const carousel = document.getElementById('nations-carousel');
+    if (carousel) {
+      const scrollAmount = 400 * direction;
+      carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  }
+
+  // Relic/Weapon Lore Data
+  const loreData = {
+    homa: {
+      origin: "Rito de Fuego de Liyue",
+      title: "El Fuego Purificador y las Mariposas del Más Allá",
+      quote: "“Solo una llama desprovista de impurezas puede liberar a las almas atadas a la pena. Los fuegos de Homa no queman la carne, sino la memoria de la aflicción mortal.”",
+      body: "En las eras en que los miasmas del dios caído brotaban de la tierra arrasada, los sacerdotes del Valle de Guili danzaban con varas de madera encendida. Cuando el primer director del Salón El Wangsheng alzó el báculo, los llantos cesaron y las almas ascendieron en forma de mariposas incandescentes."
+    },
+    albaster: {
+      origin: "Espinadragón & Alquimia de Khemia",
+      title: "La Sangre de Durin y la Hoja Desconocida",
+      quote: "“Madre, el mundo exterior es frío, pero mi corazón arde por conocer a aquellos nacidos del mismo milagro.”",
+      body: "Forjada con la esencia residual del dragón negro Durin, esta espada susurra promesas de vitalidad imperecedera. Aquellos que la empuñaron sintieron cómo el frío mortal de Espinadragón se desvanecía, sustituido por el pulso acelerado de una creación nacida del arte de Oro."
+    },
+    sombra: {
+      origin: "Mondstadt Arcaico & Aristocracia",
+      title: "El Cáliz del Festín Olvidado de los Nobles",
+      quote: "“En las copas de platino ya no se sirve vino de diente de león, sino la vanidad que precede a la rebelión de los oprimidos.”",
+      body: "Perteneciente a los clanes aristocráticos antes de que Vennessa liberara la Ciudad del Viento. Encapsula el momento exacto en que la nobleza abandonó sus votos de protección para sumergirse en el lujo decadente, ignorando el lamento que resonaba en las murallas."
+    }
+  };
+
+  function selectLoreItem(itemKey) {
+    const data = loreData[itemKey];
+    if (!data) return;
+
+    document.querySelectorAll('.relic-item').forEach(btn => {
+      btn.classList.remove('bg-surface-container-high', 'text-primary', 'shadow-md');
+      btn.classList.add('text-on-surface-variant');
+    });
+
+    const activeBtn = document.getElementById('item-' + itemKey);
+    if (activeBtn) {
+      activeBtn.classList.add('bg-surface-container-high', 'text-primary', 'shadow-md');
+      activeBtn.classList.remove('text-on-surface-variant');
+    }
+
+    document.getElementById('lore-origin').textContent = data.origin;
+    document.getElementById('lore-title').textContent = data.title;
+    document.getElementById('lore-quote').textContent = data.quote;
+    document.getElementById('lore-body').textContent = data.body;
+  }
+</script></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant"><div class="w-full px-margin-mobile md:px-margin py-space-xl flex flex-col gap-space-xl"><div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md bg-surface-container-low/60 p-space-lg rounded-xl"><div class="flex items-center gap-space-md"><span class="material-symbols-outlined text-primary-container text-[28px]">warning</span><div><p class="font-title-md text-title-md text-primary">Zona de Spoilers: Teyvat Capítulo Final</p><p class="font-body-sm text-body-sm text-on-surface-variant">Los registros compilados revelan acontecimientos canónicos de Celestia, el Abismo, artefactos antiguos e interacciones entre deidades primordiales.</p></div></div><div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px]">verified</span><span>Nivel de Acceso: Astrólogo Real</span></div></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-lg"><div class="lg:col-span-4 flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary">TEYVAT ARCHIVES</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Compendio exhaustivo de las Siete Naciones, los dioses celestiales y los ecos perdidos del Cataclismo en Teyvat. Documentado por cronistas independientes.</p><div class="flex items-center gap-space-xs font-label-sm text-label-sm text-secondary pt-space-xs"><span class="material-symbols-outlined text-[16px]">flare</span><span>Sincronizado con el Irminsul</span></div></div><div class="lg:col-span-5 flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-on-surface">Las Siete Naciones de Teyvat</h4><div class="grid grid-cols-2 sm:grid-cols-3 gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary hover:bg-surface-container-high px-space-sm py-space-xs rounded transition-colors flex items-center gap-space-xs" data-path="nacion-mondstadt" href="#"><span class="material-symbols-outlined text-[14px] text-secondary">air</span>Mondstadt</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary hover:bg-surface-container-high px-space-sm py-space-xs rounded transition-colors flex items-center gap-space-xs" data-path="nacion-liyue" href="#"><span class="material-symbols-outlined text-[14px] text-primary">landscape</span>Liyue</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-tertiary hover:bg-surface-container-high px-space-sm py-space-xs rounded transition-colors flex items-center gap-space-xs" data-path="nacion-inazuma" href="#"><span class="material-symbols-outlined text-[14px] text-tertiary">bolt</span>Inazuma</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary hover:bg-surface-container-high px-space-sm py-space-xs rounded transition-colors flex items-center gap-space-xs" data-path="nacion-sumeru" href="#"><span class="material-symbols-outlined text-[14px] text-secondary">spa</span>Sumeru</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary-fixed hover:bg-surface-container-high px-space-sm py-space-xs rounded transition-colors flex items-center gap-space-xs" data-path="nacion-fontaine" href="#"><span class="material-symbols-outlined text-[14px] text-secondary-fixed">water_drop</span>Fontaine</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary hover:bg-surface-container-high px-space-sm py-space-xs rounded transition-colors flex items-center gap-space-xs" data-path="nacion-natlan" href="#"><span class="material-symbols-outlined text-[14px] text-primary">local_fire_department</span>Natlan</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high px-space-sm py-space-xs rounded transition-colors flex items-center gap-space-xs" data-path="nacion-snezhnaya" href="#"><span class="material-symbols-outlined text-[14px] text-on-surface">ac_unit</span>Snezhnaya</a></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-on-surface">Investigación &amp; Comunidad</h4><ul class="flex flex-col gap-space-xs"><li class="font-body-sm text-body-sm text-on-surface-variant">Academia de Sumeru (Dpto. Spantamad)</li><li class="font-body-sm text-body-sm text-on-surface-variant">Orden del Abismo: Manuscritos Ocultos</li><li class="font-body-sm text-body-sm text-on-surface-variant">Círculo de Astrólogos de Fontaine</li><li class="font-body-sm text-body-sm text-on-surface-variant">Sociedad de Geografía de Liyue</li></ul></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm"><p class="font-body-sm text-body-sm text-outline">Hecho con devoción por exploradores y cronistas de Teyvat. Proyecto no oficial tributo a Genshin Impact.</p><div class="flex items-center gap-space-md"><span class="font-label-sm text-label-sm text-on-surface-variant">Pactum Celestial © 2024</span><span class="font-label-sm text-label-sm text-secondary">✦ Irminsul Safe Node</span></div></div></div></footer></body></html>
